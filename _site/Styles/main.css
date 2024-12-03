@@ -21,4 +21,4 @@ a.selected {
 text-decoration : underline;
 
 } 
-p {flex-direction: column;}
+p {flex-direction:row;}
