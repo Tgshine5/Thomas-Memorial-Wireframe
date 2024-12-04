@@ -21,11 +21,13 @@ navpages:
     <header>
         <nav>
             <ul>
-           {%- for entry in navpages %}
-           <li{% if entry.url == name %} class="my-active-class"{% end if %}>
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-           {%- end for %}
+              {%- for entry in navpages %}
+              <li {% if entry.title == name %}
+                  class="selected" {% endif %}>
+                <a href="{{ entry.url }}">
+                  {{ entry.title }}
+                </a>
+              </li>
             </ul>
         
         </nav>
