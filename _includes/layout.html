@@ -22,12 +22,13 @@ navpages:
         <nav>
             <ul>
               {%- for entry in navpages %}
-              <li {% if entry.title == name %}
+              <li {% if entry.title == title %}
                   class="selected" {% endif %}>
                 <a href="{{ entry.url }}">
                   {{ entry.title }}
                 </a>
               </li>
+              {%- endfor %}
             </ul>
         
         </nav>

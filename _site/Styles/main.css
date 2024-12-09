@@ -17,7 +17,7 @@ font-weight: 400;
 font-size: 24px;
 }
 
-a.selected {
+li.selected {
 text-decoration : underline;
 
 } 
