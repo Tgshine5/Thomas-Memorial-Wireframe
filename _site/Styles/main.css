@@ -22,3 +22,9 @@ text-decoration : underline;
 
 } 
 p {flex-direction:row;}
+div{flex-direction:row;
+display:flex;}
+
+par{display:flex;
+flex-direction: column;
+font-size: large;}
